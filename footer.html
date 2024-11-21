@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>footer</title>
+</head>
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+<style>
+    * {
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
+
+    body {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        height: 100vh;
+        width: 100vw;
+        background-color: #f0f0f0;
+    }
+
+
+    footer {
+        background: rgb(5, 5, 82);
+        width: 100%;
+        position: relative;
+        height: 350px;
+        color: wheat;
+        /* padding: 19px 55px 10px 55px; */
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .top {
+        padding: 20px 50px 20px 50px;
+    }
+
+    .container .top {
+        /* height: 10%; */
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 20px;
+
+    }
+
+    .container .top .heading i {
+        padding-right: 3px;
+        font-size: 25px;
+    }
+
+    .container .top .heading {
+        display: flex;
+        justify-content: baseline;
+        align-items: center;
+        transition: transform 0.3s 0s;
+    }
+
+    .container .top .heading a {
+        font-size: 25px;
+        text-decoration: none;
+
+    }
+
+    footer .top a {
+        color: white
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons i {
+        margin-left: 10px;
+        transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .icons i:hover {
+        background-color: rgba(255, 255, 255, 0.2);
+        transform: scale(1.1);
+    }
+
+    .container .top .icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-right: 29px;
+    }
+
+    .container .top .icons i {
+        font-size: 15px;
+        color: white;
+        padding: 8px;
+        border-radius: 50%;
+    }
+
+    .top .heading:hover {
+        /* text-decoration: underline; */
+        transform: scale(1.2);
+    }
+
+    .heading i {
+        font-size: 30px;
+        padding-right: 10px;
+    }
+
+    /* yahan se mid shuru */
+
+
+    .mid {
+        display: flex;
+        justify-content: space-between;
+        height: 60%;
+
+        padding: 20px 50px 20px 50px;
+    }
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 8px;
+    }
+
+    .form input {
+        width: 100%;
+        padding: 6px;
+        margin: 4px;
+
+    }
+
+    .form input[type="text"] {
+        background: rgb(5, 5, 82);
+        border: 2px solid wheat;
+        /* padding: 1?2px; */
+    }
+
+    .mid h3 span {
+        text-decoration: underline;
+    }
+
+    .container .mid {
+        /* padding: 12px; */
+        /* margin: 19px; */
+        line-height: 25px;
+    }
+
+    .mid .a .b .c .d:hover {
+        transform: scale(1.5);
+    }
+
+    .mid .a,
+    .mid .b,
+    .mid .c,
+    .mid .d,
+    .mid .e {
+        flex: 1;
+        margin: 0 10px;
+        /* width: calc(100%/5 - 10px); */
+    }
+
+
+    .mid .a h3 h5:hover,
+    .mid .b:hover,
+    .mid .c:hover,
+    .mid .d:hover,
+    .mid .e:hover {
+        transform: scale(1.5);
+        transition: transform 0.1s ease;
+    }
+
+    .bottom {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 50px;
+        padding-right: 50px;
+        position: absolute;
+        bottom: 0;
+        height: 20%;
+        border-top: 2px solid none;
+        background-color: rgb(7, 7, 39);
+        width: 100%;
+    }
+</style>
+
+<body>
+    <footer>
+        <div class="container">
+            <div class="top">
+                <div class="heading">
+                    <i class='bx bx-crosshair'></i><a href="">CodingLab</a>
+                </div>
+                <div class="icons">
+                    <i class='bx bxl-facebook' style="background-color:#1877f2;"></i>
+                    <i class='bx bxl-twitter' style="background-color: #1DA1F2;"></i>
+                    <i class='bx bxl-instagram' style="background-color: deeppink;"></i>
+                    <i class='bx bxl-linkedin' style="background-color: #0A66C2;"></i>
+                    <i class='bx bxl-youtube' style="background-color: red;"></i>
+                </div>
+            </div>
+            <hr>
+            <div class="mid">
+                <div class="a">
+                    <h3> <span> Com</span>pany</h3>
+                    <h5>Home<h5>
+                            <h5>Contact us</h5>
+                            <h5>About us</h5>
+                            <h5>Get Started</h5>
+                </div>
+                <div class="b">
+                    <h3> <span> Ser</span>vices</h3>
+                    <h5>App Design</h5>
+                    <h5>Web Design</h5>
+                    <h5>Logo Desing</h5>
+                    <h5>Banner Design</h5>
+
+                </div>
+                <div class="c">
+                    <h3> <span> Acc</span>ount</h3>
+                    <h5>Profile</h5>
+                    <h5>My Account</h5>
+                    <h5>Preferces</h5>
+                    <h5>Purhase</h5>
+                </div>
+                <div class="d">
+                    <h3> <span> Cou</span>ses</h3>
+                    <h5>HTML & CSS</h5>
+                    <h5>jAVASCRIPT</h5>
+                    <h5>pHOTOGRAPHY</h5>
+                    <h5>PHOTOSHOP</h5>
+                </div>
+                <div class="e">
+                    <h3> <span> Sub</span>scribe us</h3>
+                    <div class="form">
+
+                        <input type="text" placeholder="Enter you Email">
+                        <input type="button" value="Subscirbe">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom">
+                <div class="left">
+                    <h4>Copyright @ 2024 Coding Lab. All Rights Reserved</h4>
+                </div>
+                <div class="right">
+                    <h4>Privacy policy
+                        Terms & Conditions</h4>
+                </div>
+
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
